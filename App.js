@@ -1,24 +1,22 @@
-import { StatusBar } from 'expo-status-bar';
-import { Text, View, ImageBackground, Button } from 'react-native';
-import styles from './src/assets/css/styles';
-import HeaderPrincipal from './src/assets/components/headerprincipal' // Cabeçalho
-import ContainerHome from './src/assets/components/corpohome'; // Corpo
-import Rodape from './src/assets/components/rodape'; // Rodapé
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
+
+import Home from './src/pages/home';
+import Login from './src/pages/login';
+import Cadastro from './src/pages/cadastro';
+
+const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <ImageBackground
-        source={require('./src/images/fundoHome.jpg')}
-        style={styles.body}
-      >
-        <View style={{ width: '100%', }} >
-          <HeaderPrincipal /> 
-        </View>
-        <ContainerHome/>
-        <Rodape/>
-      </ImageBackground>
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name='Home' component={Home} options={{headerShown: false,}}/>
+        <Stack.Screen name='Login' component={Login} options={{headerShown: false,}}/>
+        <Stack.Screen name='Cadastro' component={Cadastro} options={{headerShown: false,}}/>
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
 

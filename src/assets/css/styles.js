@@ -19,10 +19,21 @@ const styles = StyleSheet.create({
                 width: '100%',
                 height:75,
               },
-
+              logo: {
+                flexDirection: 'row',
+                justifyContent: 'center',
+                width: 150,
+              },
               imagelogo: {
                 width: 65,
                 height:55,
+              },
+              Buttons: {
+                flexDirection: 'row',
+                justifyContent: 'space-between',
+                marginLeft: 10,
+                gap: 10,
+                
               },
                 secondaryContainer: {
                 flex: 1,
