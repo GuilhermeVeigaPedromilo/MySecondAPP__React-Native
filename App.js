@@ -1,9 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import { Text, View, ImageBackground, Button } from 'react-native';
 import styles from './src/assets/css/styles';
-import HeaderPrincipal from './src/assets/components/headerprincipal'
-import ContainerHome from './src/assets/components/corpohome';
-import Rodape from './src/assets/components/rodape';
+import HeaderPrincipal from './src/assets/components/headerprincipal' // Cabeçalho
+import ContainerHome from './src/assets/components/corpohome'; // Corpo
+import Rodape from './src/assets/components/rodape'; // Rodapé
 
 export default function App() {
   return (
@@ -13,7 +13,7 @@ export default function App() {
         style={styles.body}
       >
         <View style={{ width: '100%', }} >
-          <HeaderPrincipal />
+          <HeaderPrincipal /> 
         </View>
         <ContainerHome/>
         <Rodape/>

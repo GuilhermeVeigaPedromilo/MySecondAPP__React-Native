@@ -1,3 +1,5 @@
+//Cabeçalho-------
+
 import React from 'react';
 import { StyleSheet, Text, View, Image, Button,  } from 'react-native';
 import styles from '../css/styles'; // Importa o arquivo de estilo

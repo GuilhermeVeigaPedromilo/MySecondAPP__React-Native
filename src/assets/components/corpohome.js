@@ -1,4 +1,5 @@
-import { StatusBar } from 'expo-status-bar';
+//Corpo ------
+
 import { Text, View, ImageBackground, Button } from 'react-native';
 import styles from '../css/styles';
 
