@@ -1,7 +1,7 @@
 //Corpo ------
 
 import { Text, View, ImageBackground, Button } from 'react-native';
-import styles from '../css/styles';
+import styles from '../../css/styles'; // Importando styles
 
 export default function ContainerHome() {
   return (

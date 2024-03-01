@@ -42,13 +42,29 @@ const styles = StyleSheet.create({
                 textAlign: 'center',
                 alignItems: 'center',
                 },
-                
+
+                thirdContainer: {
+                  flex: 1,
+                  width: '100%',
+                  marginTop: 40,
+                  textAlign: 'center',
+                  alignItems: 'center',
+                  },
+                  
                 boxcentral: {
                     width: 250,
                     height: 200,
                     borderColor: 'white',
                     borderWidth: 2,
                     color: 'white',
+                },
+
+                boxcentralBlog: {
+                  width: '100%',
+                    height: 100,
+                    backgroundColor: 'black',
+                    opacity: 0.5,
+                    justifyContent: 'center'
                 },
 
                 containerRodape: {
