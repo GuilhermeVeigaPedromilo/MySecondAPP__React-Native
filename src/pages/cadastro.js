@@ -1,7 +1,7 @@
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image, TextInput, ImageBackground, Button } from 'react-native';
-import styles from '../css/stylelcadastro'; // Importa o arquivo de estilo
+import styles from '../components/styles/stylelcadastro'; // Importa o arquivo de estilo
 import HeaderPrincipal from '../components/Geral/headerprincipal'; // Header
 import Rodape from '../components/Geral/rodape'; //Rodape
 import SubmenuCadastro from '../components/Cadastro/submenu'; //Corpo -- Submenu

@@ -1,7 +1,7 @@
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image, TextInput, ImageBackground, Button } from 'react-native';
-import styles from '../../css/stylelcadastro'; // Importa o arquivo de estilo
+import styles from '../styles/stylelcadastro'; // Importa o arquivo de estilo
 
 export default function SubmenuCadastro() { // Alteração aqui: export default function Login()
 

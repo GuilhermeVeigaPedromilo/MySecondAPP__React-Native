@@ -1,7 +1,7 @@
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image, TextInput, ImageBackground, Button } from 'react-native';
-import styles from '../../css/stylelogin'; // Importa o arquivo de estilo
+import styles from '../styles/stylelogin'; // Importa o arquivo de estilo
 
 export default function Submenu() { // Alteração aqui: export default function Login()
 

@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { Text, View, ImageBackground, Button } from 'react-native';
-import styles from '../css/styles'; // Importando styles
+import styles from '../components/styles/styles'; // Importando styles
 import HeaderPrincipal from '../components/Geral/headerprincipal' // Cabeçalho
 import ContainerHome from '../components/Home/corpohome'; // Corpo
 import Rodape from '../components/Geral/rodape'; // Rodapé

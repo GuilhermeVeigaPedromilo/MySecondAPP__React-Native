@@ -1,8 +1,8 @@
 //Corpo ------
 
 import { Text, View, Image, Button } from 'react-native';
-import styles from '../../css/styles';// Importando styles
-import posts from '../../css/styleposts';
+import styles from '../styles/styles';// Importando styles
+import posts from '../styles/styleposts'; //Importando posts
 
 export default function ContainerBlog() {
   return (

@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Text, View, Image, Button,  } from 'react-native';
-import styles from '../../css/styles'; // Importa o arquivo de estilo
+import styles from '../styles/styles'; // Importa o arquivo de estilo
 
   function Rodape() {
 

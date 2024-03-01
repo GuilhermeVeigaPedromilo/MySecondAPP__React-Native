@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { StyleSheet, Text, View, Image, Button, TouchableOpacity,  } from 'react-native';
-import styles from '../../css/styles'; // Importa o arquivo de estilo
+import styles from '../styles/styles'; // Importa o arquivo de estilo
 import { useNavigation } from '@react-navigation/native';
 
   function HeaderPrincipal() {
