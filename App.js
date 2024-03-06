@@ -6,6 +6,7 @@ import Home from './src/pages/home'; // Importando página Home
 import Login from './src/pages/login'; // Importando página Login
 import Cadastro from './src/pages/cadastro'; // Importando página Cadastro
 import Blog from './src/pages/blog'; // Importando página Blog
+import About from './src/pages/sobre'; // Importando página About
 
 const Stack = createNativeStackNavigator();
 
@@ -17,6 +18,7 @@ export default function App() {
         <Stack.Screen name='Login' component={Login} options={{headerShown: false,}}/>
         <Stack.Screen name='Cadastro' component={Cadastro} options={{headerShown: false,}}/>
         <Stack.Screen name='Blog' component={Blog} options={{headerShown: false,}}/>
+        <Stack.Screen name='About' component={About} options={{headerShown: false,}}/>
       </Stack.Navigator>
     </NavigationContainer>
   );

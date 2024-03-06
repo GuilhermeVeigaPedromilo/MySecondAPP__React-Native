@@ -8,10 +8,6 @@ import Submenu from '../components/Login/submenu'; //Corpo -- Submenu
 
 export default function Login() { // Alteração aqui: export default function Login()
 
-  const button = () => { // Alteração aqui: Adicionei o "const" para definir a função
-    alert("Login");
-  }
-
   return (
     <View style={styles.container}>
       <HeaderPrincipal/>

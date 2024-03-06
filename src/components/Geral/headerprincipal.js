@@ -36,6 +36,12 @@ import { useNavigation } from '@react-navigation/native';
       >
         <Text>Cadastro</Text>
       </TouchableOpacity>
+
+      <TouchableOpacity
+      onPress={() => navigation.navigate("About")}
+      >
+        <Text>About</Text>
+      </TouchableOpacity>
       
       </View>
 

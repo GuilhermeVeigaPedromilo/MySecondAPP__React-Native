@@ -14,13 +14,13 @@ export default function Cadastro() { // Alteração aqui: export default functio
 
     return (
         <View style={styles.container}>
-            <HeaderPrincipal/>
+            <HeaderPrincipal />
             <ImageBackground
                 style={styles.body}
                 source={require('../assets/images/fundocadastro.jpg')}>
-                    <SubmenuCadastro/>
+                <SubmenuCadastro />
             </ImageBackground>
-            <Rodape/>
+            <Rodape />
         </View>
     );
 }

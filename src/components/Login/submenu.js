@@ -2,12 +2,11 @@ import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image, TextInput, ImageBackground, Button } from 'react-native';
 import styles from '../styles/stylelogin'; // Importa o arquivo de estilo
+import { useNavigation } from '@react-navigation/native';
 
 export default function Submenu() { // Alteração aqui: export default function Login()
 
-  const button = () => { // Alteração aqui: Adicionei o "const" para definir a função
-    alert("Login");
-  }
+  const navigation = useNavigation();
 
   return (
 
@@ -26,7 +25,7 @@ export default function Submenu() { // Alteração aqui: export default function
                   <Button
                   placeholder='Login'
                   title='Login'
-                  onPress={button} 
+                  onPress={() => navigation.navigate("Sobre")} 
                   color='black'
                   /> 
                  </View>

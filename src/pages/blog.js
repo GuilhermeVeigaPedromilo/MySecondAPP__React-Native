@@ -7,18 +7,16 @@ import { useNavigation } from '@react-navigation/native';
 import ContainerBlog from '../components/Blog/corpoblog';//Corpo
 
 export default function Blog() {
-    const navigation = useNavigation();
+  const navigation = useNavigation();
   return (
     <View style={styles.container}>
       <ImageBackground
         source={require('../assets/images/fundoblog.jpg')}
         style={styles.body}
       >
-
-          <HeaderPrincipal /> 
-
-        <ContainerBlog/>
-        <Rodape/>
+        <HeaderPrincipal />
+        <ContainerBlog />
+        <Rodape />
       </ImageBackground>
     </View>
   );
